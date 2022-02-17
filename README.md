@@ -16,6 +16,7 @@ Notes to learn react
 * index.js 
 
 #Inside of app.js
+```
 function App() {
   return (
     <div>
@@ -23,17 +24,18 @@ function App() {
     </div>
   );
 }
-
+```
 export default App;
 
 # Inside of index.js
+```
 import ReactDOM from 'react-dom';
 
 import './index.css';
 import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
+```
 
 # Inside of index.css
 
