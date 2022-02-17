@@ -1,6 +1,3 @@
-# learnreact
-Notes to learn react
-
 
 # learnreact
 Notes to learn react
