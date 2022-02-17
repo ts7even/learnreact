@@ -8,14 +8,12 @@ Notes to learn react
 * npm start (to start up the development folder)
 
 # Configure SRC folder and Directory 
-* Add new folder inside of frontend called components. (This is where you store your components)
-
 - Inside of src folder you only need...  (To clean up the project)
 * app.js
 * index.css
 * index.js 
 
-#Inside of app.js
+# Inside of app.js
 ```
 function App() {
   return (
@@ -60,6 +58,37 @@ body {
 Components -> App.js -> (index.js + index.css) -> index.html : 
 - So the user clicks the Html link then processes index.js, then renders App.js, then gets whatever components. 
 - For now, dont toutch package.json. You will need to change this later when running a backend. 
+```
+const ExpenseItem = () => {
+  return (
+    <div>ExpenseItem</div>
+  )
+}
+
+export default ExpenseItem
+```
+# Creating our first custom component
+- Add new folder inside of src called components. (This is where you store your components)
+* Create a new file called ExpenseItem.js (Must be upper case, since built in characters in HTML are lower case so we dont want problems)
+* use rafce to create react arrow function with export. You need to delete the import react at the top because it wont render in App.js if you leave it. 
+```
+
+```
 
 
+* import Expense item to App.js. You can use the function ExpenseItem as a html tag  inside of app.js
+```
+import ExpenseItem from "./components/ExpenseItem";
+
+function App() {
+  return (
+    <div>
+      <h2>Let's get started!</h2>
+      <ExpenseItem></ExpenseItem>
+    </div>
+  );
+}
+
+export default App;
+```
 
