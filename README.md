@@ -91,8 +91,34 @@ function App() {
 
 export default App;
 ```
-# React State Vs Props 
+# React Routes
+- To add other pages and their routes, you have to import Route from react-router-dom
+```
+import {Route} from 'react-router-dom';
 
+import {Whatever page.js} from './path to Whateverjs'; 
+import {Whatever page.js} from './path to Whateverjs';
+import {Whatever page.js} from './path to Whateverjs';
+
+
+function App() {
+  return (
+    <div>
+      <Route path='/'>
+        <Whateverpage.js/>
+      </Route>
+      <Route path='/'>
+        <Whateverpage.js/>
+      </Route>
+      <Route path='/'>
+        <Whateverpage.js/>
+      </Route>
+    </div>
+  );
+}
+
+
+```
 
 # React Hooks 
 
