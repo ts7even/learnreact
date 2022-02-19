@@ -1,8 +1,5 @@
 
-# learnreact
-Notes to learn react
-
-# How to start a project. 
+# How to start a project. This can be replicated for all React frontend websites. 
 * npx create-react-app frontend
 * cd frontend
 * npm start (to start up the development folder)
@@ -13,6 +10,11 @@ Notes to learn react
 * App.js
 * index.css
 * index.js 
+
+- Then you need to Add a few folders inside of src. 
+* Add container foldler ~ This is for larger jsx function such as for a footer, header, blog, and other "Pages"
+* Add a components folder ~ These are for smaller jsx functions that can be resused in different pages such as a NavBar. 
+* Add a assets folder ~ This is where you keep all of your pictures such as svg's, png, ect...
 
 # Inside of app.js
 * Use the rafce shortcut to create this function. 
