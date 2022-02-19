@@ -167,7 +167,7 @@ a {
 
 
 # Flow of React 
-Components -> Containers -> App.js -> (index.js + index.css) -> index.html : (Vice versa when a person goes to the website)
+Components -> Containers -> App.js -> index.js -> index.html : (Vice versa when a person goes to the website)
 - So the user clicks the Html link then processes index.js, then renders App.js, then gets whatever components. 
 - For now, dont toutch package.json. You will need to change this later when running a backend. 
 ```
