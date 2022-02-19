@@ -15,7 +15,7 @@ Notes to learn react
 * index.js 
 
 # Inside of app.js
-* you can use the rafce shortcut to create this function. 
+* Use the rafce shortcut to create this function. 
 ```
 import React from 'react';
 
@@ -32,7 +32,7 @@ export default App
 
 
 # Inside of index.js
-* Just export your App.js which orgainizes where all the compenents and conainers go. This does not change. 
+* Just import App.js to the index.js  This does not change throughout the build. 
 ```
 import ReactDOM from 'react-dom';
 
@@ -183,7 +183,7 @@ export default ExpenseItem
 * use rafce to create react arrow function with export. You need to delete the import react at the top because it wont render in App.js if you leave it. 
 * Create a css file with same name 
 * This can be repeated for compnents and containers. Containers are larger that a comonent, like a whole page. 
- 
+* Copy and paste this to other components and conatiners, but alt + left click to change the funciton name, div, and export. 
 ```
 import React from 'react';
 import './navbar.css';
@@ -197,8 +197,6 @@ const Navbar = () => {
 export default Navbar
 
 ```
-
-
 
 
 # Export Container and Compenent folders and files. 
